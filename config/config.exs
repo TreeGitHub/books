@@ -6,3 +6,5 @@ config :books, Books.Repo,
   password: "postgres",
   hostname: "localhost",
   port: 5433
+
+  config :books, ecto_repos: [Books.Repo]
