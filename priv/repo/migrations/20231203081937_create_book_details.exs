@@ -4,7 +4,7 @@ defmodule Books.Repo.Migrations.CreateBookDetails do
   def change do
     create table(:books) do
       add :title, :string, null: false
-      add :inStcok, :integer, default: 0
+      add :inStock, :integer, default: 0
     end
   end
 end
